@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>D3 Chart</title>
+<meta charset="utf-8">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<style>
+.bar
+{
+fill:orange
+}
+.bar:hover
+ {
+fill: blue;
+ }
+.axis
+{
+font: 10px sans-serif;
+}
+.axis path,
+.axis line
+ {
+fill:none;
+stroke: #000;
+// shape-rendering: crispEdges;
+}
+.x.axis path
+  {
+display: none;
+  }
+</style>
+</head>
+<body>
+<script src="bar.js"></script>
+</body>
+</html>
